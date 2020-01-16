@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="/src/styles/indexstyle.css">
+        <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+        <title>Galaxy Weather</title>
+        <link rel="shortcut icon" href="/src/icon.ico" type="image/x-icon">
+    </head>
+
+        <style>
+        
+        body {
+        background-image: url(https://images8.alphacoders.com/503/503792.jpg);
+        background-size: cover;
+        color:yellow;
+        font-family: 'Share Tech Mono','Franklin Gothic Medium', 'Arial Narrow', monospace;
+        font-weight: 600;
+        text-align: center;
+        justify-content: center;
+        }
+
+        
+        </style>
+
+    <body>
+        Bienvenido a la base de datos de los Vulcanos!
+
+        <h1>Ingrese el día:</h1>
+        <div>
+        <form name="formulario" method="GET" action="/clima">
+        <p>
+        <input type="text" name="dia" class="inputday" placeholder="Día entre 1 y 3650">
+        <input type="submit" value="Enviar formulario" class="inputday">
+        </form>
+        </p>
+        <p>
+        <button id="consultabutton">
+                <em><strong>Consultar</strong></em>
+        </button>
+        </p>
+        </div>
+
+        <script src="/script.js"></script>
+    </body>
+
+</html>
